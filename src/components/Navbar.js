@@ -1,12 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import { Button, Container, MenuItem, Menu, Grid } from "@material-ui/core";
+// import AppBar from "@material-ui/core/AppBar";
+import { Button, MenuItem, Menu, Grid } from "@material-ui/core";
 import DownIcon from "@material-ui/icons/ArrowDropDown";
 import Progress from "../components/Progress";
 import TelegramIcon from "@material-ui/icons/Telegram";
-import FormGroup from "@material-ui/core/FormGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
+// import FormGroup from "@material-ui/core/FormGroup";
+// import FormControlLabel from "@material-ui/core/FormControlLabel";
 import { withStyles } from "@material-ui/core/styles";
 import Switch from "@material-ui/core/Switch";
 import { useEffect } from "react";
@@ -181,10 +181,10 @@ const Navbar = ({ setDark, dark }) => {
   //   setCrypto(event.target.value);
   // };
 
-  const [state, setState] = React.useState({
-    crypto: "",
-    name: "h",
-  });
+  // const [state, setState] = React.useState({
+  //   crypto: "",
+  //   name: "h",
+  // });
   // const [anchorEl, setAnchorEl] = React.useState(null);
   // const [anchorEl2, setAnchorEl2] = React.useState(null);
 

@@ -190,7 +190,9 @@ const Table = ({ dark }) => {
                 </a>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell}>₹ 25,73,809</h4>
+                <h4 className={dark ? classes.darkCell : classes.cell}>
+                  ₹ 25,73,809
+                </h4>
               </td>
               <td>
                 <h4 className={dark ? classes.darkCell : classes.cell}>
@@ -198,12 +200,18 @@ const Table = ({ dark }) => {
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   0.06 %
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   ▲ ₹ 1,639
                 </h4>
               </td>
@@ -220,13 +228,19 @@ const Table = ({ dark }) => {
                   style={{ textDecoration: "none", textAlign: "center" }}
                 >
                   <h4 className={dark ? classes.darkCell : classes.cell}>
-                    <img src="/bitbns.png" className={classes.CrypLogo} />
+                    <img
+                      src="/bitbns.png"
+                      className={classes.CrypLogo}
+                      alt="logo"
+                    />
                     <span className={classes.CrypName}>Bitbns</span>
                   </h4>
                 </a>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell}>₹ 25,72,254</h4>
+                <h4 className={dark ? classes.darkCell : classes.cell}>
+                  ₹ 25,72,254
+                </h4>
               </td>
               <td>
                 <h4 className={dark ? classes.darkCell : classes.cell}>
@@ -234,12 +248,18 @@ const Table = ({ dark }) => {
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   0.00 %
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   ▲ ₹ 85
                 </h4>
               </td>
@@ -256,13 +276,19 @@ const Table = ({ dark }) => {
                   style={{ textDecoration: "none", textAlign: "center" }}
                 >
                   <h4 className={dark ? classes.darkCell : classes.cell}>
-                    <img src="/giotus.png" className={classes.CrypLogo} />
+                    <img
+                      src="/giotus.png"
+                      className={classes.CrypLogo}
+                      alt="logo"
+                    />
                     <span className={classes.CrypName}>Giotus</span>
                   </h4>
                 </a>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell}>₹ 25,50,100</h4>
+                <h4 className={dark ? classes.darkCell : classes.cell}>
+                  ₹ 25,50,100
+                </h4>
               </td>
               <td>
                 <h4 className={dark ? classes.darkCell : classes.cell}>
@@ -270,12 +296,18 @@ const Table = ({ dark }) => {
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#da5757" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#da5757" }}
+                >
                   -0.86 %
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#da5757" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#da5757" }}
+                >
                   ▼ ₹ 22,069
                 </h4>
               </td>
@@ -292,13 +324,19 @@ const Table = ({ dark }) => {
                   style={{ textDecoration: "none", textAlign: "center" }}
                 >
                   <h4 className={dark ? classes.darkCell : classes.cell}>
-                    <img src="/colodax.png" className={classes.CrypLogo} />
+                    <img
+                      src="/colodax.png"
+                      className={classes.CrypLogo}
+                      alt="logo"
+                    />
                     <span className={classes.CrypName}>Colodax</span>
                   </h4>
                 </a>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell}>₹ 25,83,138</h4>
+                <h4 className={dark ? classes.darkCell : classes.cell}>
+                  ₹ 25,83,138
+                </h4>
               </td>
               <td>
                 <h4 className={dark ? classes.darkCell : classes.cell}>
@@ -306,12 +344,18 @@ const Table = ({ dark }) => {
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   0.43 %
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   ▲ ₹ 10,968
                 </h4>
               </td>
@@ -328,13 +372,19 @@ const Table = ({ dark }) => {
                   style={{ textDecoration: "none", textAlign: "center" }}
                 >
                   <h4 className={dark ? classes.darkCell : classes.cell}>
-                    <img src="/zebpay.png" className={classes.CrypLogo} />
+                    <img
+                      src="/zebpay.png"
+                      className={classes.CrypLogo}
+                      alt="logo"
+                    />
                     <span className={classes.CrypName}>Zebpay</span>
                   </h4>
                 </a>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell}>₹ 25,78,999</h4>
+                <h4 className={dark ? classes.darkCell : classes.cell}>
+                  ₹ 25,78,999
+                </h4>
               </td>
               <td>
                 <h4 className={dark ? classes.darkCell : classes.cell}>
@@ -342,12 +392,18 @@ const Table = ({ dark }) => {
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   0.27 %
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   ▲ ₹ 6,829
                 </h4>
               </td>
@@ -364,13 +420,19 @@ const Table = ({ dark }) => {
                   style={{ textDecoration: "none", textAlign: "center" }}
                 >
                   <h4 className={dark ? classes.darkCell : classes.cell}>
-                    <img src="/coindcx.png" className={classes.CrypLogo} />
+                    <img
+                      src="/coindcx.png"
+                      className={classes.CrypLogo}
+                      alt="logo"
+                    />
                     <span className={classes.CrypName}>CoinDCX</span>
                   </h4>
                 </a>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell}>₹ 25,74,716</h4>
+                <h4 className={dark ? classes.darkCell : classes.cell}>
+                  ₹ 25,74,716
+                </h4>
               </td>
               <td>
                 <h4 className={dark ? classes.darkCell : classes.cell}>
@@ -378,12 +440,18 @@ const Table = ({ dark }) => {
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   0.10 %
                 </h4>
               </td>
               <td>
-                <h4 className={dark ? classes.darkCell : classes.cell} style={{ color: "#5dc7c2" }}>
+                <h4
+                  className={dark ? classes.darkCell : classes.cell}
+                  style={{ color: "#5dc7c2" }}
+                >
                   ▲ ₹ 2,547
                 </h4>
               </td>
