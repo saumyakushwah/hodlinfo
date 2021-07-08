@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
+import Table from "./components/Table";
+import Footer from "./components/Footer";
+import AddToHomeBtn from "./components/AddToHomeBtn";
 
-function App() {
+export default function App() {
+  const [dark, setDark] = useState(true);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundColor: dark ? "#191d28" : "white" }}>
+      <Navbar dark={dark} setDark={setDark} />
+      <Pricing dark={dark} />
+      <Table dark={dark} />
+      <Footer />
+      <AddToHomeBtn />
     </div>
   );
 }
-
-export default App;

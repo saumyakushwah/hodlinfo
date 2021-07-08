@@ -1,0 +1,166 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h4 {
+  margin: 0;
+}
+
+/* slider */
+.toggle-button {
+  background-color: $theme-color;
+  box-shadow: 0 0 15px;
+  border-radius: 18px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 0;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.MuiSwitch-switchBase {
+  color: #3dc6c1 !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+
+.MuiSwitch-root {
+  margin: 4px !important;
+  width: 60px !important;
+  height: 34px !important;
+}
+.MuiSwitch-track {
+  border-radius: 50px !important;
+}
+.MuiSwitch-thumb {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked {
+  transform: translateX(26px) !important;
+}
+
+.MuiMenuItem-root {
+  padding: 4px 16px !important;
+  display: block !important;
+}
+
+.MuiMenu-paper {
+  margin-top: 48px !important;
+}
+
+.middle-text {
+  font-size: 80px;
+}
+.side-text {
+  font-size: 40px;
+}
+.bottom-text {
+  color: #888;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+.best-text {
+  font-size: 28px;
+}
+@media (max-width: 1020px) {
+  .navbar__dropdown {
+    margin-bottom: 1rem !important;
+  }
+}
+@media (max-width: 960px) {
+  .navbar {
+    text-align: center !important;
+    justify-content: center;
+    /* justify-content: center !important; */
+  }
+  .navbar__dropdown {
+    margin-bottom: 0 !important;
+  }
+  .navbar > div {
+    justify-content: center !important;
+  }
+  .middle-text {
+    font-size: 60px;
+  }
+  .side-text {
+    font-size: 36px;
+  }
+  .bottom-text {
+    font-size: 12px;
+  }
+  .best-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .middle-text {
+    font-size: 20px;
+  }
+  .side-text {
+    font-size: 14px;
+  }
+  .bottom-text {
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar__dropdown {
+    margin-bottom: 1rem;
+  }
+}
+
+.dark {
+  color: #191d28 !important;
+}
+.dark-text {
+  color: white !important;
+}
+.light-text {
+  color: #191d28 !important;
+}
