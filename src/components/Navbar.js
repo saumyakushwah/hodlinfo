@@ -106,7 +106,7 @@ const COINS = [
   "WRX",
 ];
 
-const Dropdown = ({ items, defaultValue, style, dark }) => {
+const Dropdown = ({ delay, items, defaultValue, style, dark }) => {
   const [value, setValue] = React.useState(defaultValue);
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -136,7 +136,7 @@ const Dropdown = ({ items, defaultValue, style, dark }) => {
           fontSize: "16px",
           ...style,
         }}
-        className="navbar__dropdown"
+        className={`navbar__dropdown slide-animation delay-${delay}`}
       >
         {value} <DownIcon />
       </Button>
@@ -232,6 +232,7 @@ const Navbar = ({ setDark, dark }) => {
             alt="hodlinfo logo"
             width="262px"
             height="44px"
+            className="slide-animation"
           />
           <div>
             <h4
@@ -249,41 +250,19 @@ const Navbar = ({ setDark, dark }) => {
           </div>
         </Grid>
         <Grid item sm={12} md={4} style={{ textAlign: "center" }}>
-          <Dropdown dark={dark} items={CURRENCIES} defaultValue="INR" />
           <Dropdown
+            delay={1}
+            dark={dark}
+            items={CURRENCIES}
+            defaultValue="INR"
+          />
+          <Dropdown
+            delay={2}
             dark={dark}
             items={COINS}
             defaultValue="BTC"
             style={{ marginLeft: "1rem" }}
           />
-          {/* <Button
-            // aria-controls="simple-menu"
-            // aria-haspopup="true"
-            onClick={handleClick2}
-            value={crypto}
-            onChange={handleChangeCryp}
-            style={{
-              color: "white",
-              // background: "rgba(255, 255, 255, 0.2)",
-              backgroundColor: "#2e3241",
-              borderRadius: "10px",
-              marginLeft: "20px",
-              padding: "6px 20px",
-              fontFamily: "Oswald, sans-serif",
-              fontWeight: "300",
-              fontSize: "16px",
-            }}
-          >
-            BTC <DownIcon />
-          </Button> */}
-          {/* <Menu
-            id="simple-menu"
-            anchorEl={anchorEl2}
-            keepMounted
-            open={Boolean(anchorEl2)}
-            onClose={handleClose2}
-          >
-          </Menu> */}
           <a
             href="https://wazirx.com/exchange/BTC-INR"
             target="_blank"
@@ -291,6 +270,7 @@ const Navbar = ({ setDark, dark }) => {
             style={{ color: "white", textDecoration: "none" }}
           >
             <Button
+              className="navbar__dropdown slide-animation delay-3"
               aria-controls="simple-menu"
               style={{
                 color: !dark ? "#2e3241" : "#eee",
@@ -305,7 +285,7 @@ const Navbar = ({ setDark, dark }) => {
                 fontSize: "16px",
               }}
             >
-              BUY BTC{" "}
+              BUY BTC
             </Button>
           </a>
         </Grid>
@@ -318,10 +298,16 @@ const Navbar = ({ setDark, dark }) => {
           {/* <div */}
           {/* style={{ display: "flex", justifyContent: "space-between" }} */}
           {/* > */}
-          <div style={{ display: "inline-block" }}>
+          <div
+            style={{ display: "inline-block" }}
+            className="slide-animation delay-4"
+          >
             <Progress style={{ display: "inline-block" }} />
           </div>
-          <div style={{ display: "inline-block", marginLeft: "1rem" }}>
+          <div
+            style={{ display: "inline-block", marginLeft: "1rem" }}
+            className="slide-animation delay-5"
+          >
             <a
               href="https://hodlinfo.com/connect/telegram"
               style={{
@@ -352,7 +338,10 @@ const Navbar = ({ setDark, dark }) => {
           {/* <FormGroup> */}
           {/* <FormControlLabel */}
           {/* control={ */}
-          <div style={{ display: "inline-block", marginLeft: "1rem" }}>
+          <div
+            style={{ display: "inline-block", marginLeft: "1rem" }}
+            className="slide-animation delay-6"
+          >
             <IOSSwitch
               checked={dark}
               onChange={() => setDark((prev) => !prev)}

@@ -54,7 +54,7 @@ export default function Progress() {
   // console.log(text);
   React.useEffect(() => {
     const timer = setInterval(() => {
-      console.log(text);
+      // console.log(text);
       if (text <= 0) setText(60);
       else setText((prev) => prev - 1);
     }, 500);

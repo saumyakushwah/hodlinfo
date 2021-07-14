@@ -94,10 +94,10 @@ input:checked + .slider:before {
 }
 
 .middle-text {
-  font-size: 80px;
+  font-size: 72px;
 }
 .side-text {
-  font-size: 40px;
+  font-size: 32px;
 }
 .bottom-text {
   color: #888;
@@ -108,6 +108,52 @@ input:checked + .slider:before {
 .best-text {
   font-size: 28px;
 }
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(32px);
+    transform: translateY(32px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(32px);
+    transform: translateY(32px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.slide-animation {
+  -webkit-animation: slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+.delay-2 {
+  animation-delay: 0.2s;
+}
+.delay-3 {
+  animation-delay: 0.3s;
+}
+.delay-4 {
+  animation-delay: 0.4s;
+}
+.delay-5 {
+  animation-delay: 0.5s;
+}
+.delay-6 {
+  animation-delay: 0.6s;
+}
+
 @media (max-width: 1020px) {
   .navbar__dropdown {
     margin-bottom: 1rem !important;
